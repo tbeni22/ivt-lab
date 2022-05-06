@@ -1,0 +1,15 @@
+fire one torpedo
+- should fire primary
+- return true
+
+fire 2 torpedoes
+- should only fire secondary
+- return true
+
+fire from secondary store (primary empty)
+- should only fire secondary
+- return true
+
+no torpedoes left
+- should fire primary
+- return false
